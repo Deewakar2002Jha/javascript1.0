@@ -1,0 +1,9 @@
+form{
+    display: block;
+}
+form #hide{
+    display: none !important;
+}
+#hide small{
+    color: red;
+}

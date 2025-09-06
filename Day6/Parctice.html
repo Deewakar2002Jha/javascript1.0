@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="./practice.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Login</h2>
+    <form action="/submit" method="POST" autocomplete="off">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required autocomplete="off">
+      <small class="error" id="emailerror"></small>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+      <small class="error" id="passworderror"></small>
+
+
+      <button type="submit">Submit</button>
+      
+    </form>
+    <div id="message">
+        There is the error
+      </div>
+  </div>
+  <script src="./Practice.js"></script>
+</body>
+</html>
