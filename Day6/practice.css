@@ -38,6 +38,10 @@
       border-radius: 8px;
       font-size: 1rem;
     }
+    .form-container small{
+        display: none;
+        color:red
+    }
 
     .form-container button {
       width: 100%;
